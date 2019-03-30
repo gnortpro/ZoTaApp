@@ -337,6 +337,102 @@ button.btn-custom.nav-link.header-button:focus{
 	 #footer {
     padding-bottom: 20px;
 }
+.textleft {
+  margin-top: 45px;
+}
+
+.carousel-indicators{
+  position: unset !important;
+  margin-top: 25px;
+}
+.dropdown-menu {
+  min-width: unset !important;
+}
+.dropdown-item {
+  padding: unset !important; 
+}
+.nav-pills .nav-link.active {
+  border-radius: 37px !important;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+ul#pills-tab {
+  background: #f7f6fc;
+  border-radius: 37px;
+}
+
+.nav-pills .nav-link {
+  color: #a49f9f;
+  padding-top: 20px;
+  padding-bottom: 21px;
+  padding-right: 60px;
+  padding-left: 60px;
+  text-transform: uppercase;
+}
+
+
+
+
+/* Form */
+
+.floatlabel {
+  position:relative;
+}
+.floatlabel input {
+  -webkit-appearance: none;
+  color:#333;
+  padding:10px 12px;
+  width: 100%;
+  border-radius: 8px;
+  border: solid 1px #e6e6e6;
+}
+.floatlabel label.label {
+  position:absolute;
+  top:14px;
+  left: 15px;
+  transition:all 0.2s ease-out;
+  background:#fff;
+  color: #d1d1d1;
+  font-size:16px;
+  cursor:text;
+}
+.floatlabel label.label.floatlabel-shift {
+  top:-7px;
+  left:12px;
+  padding:0 4px;
+  font-size:14px;
+  color:#999;
+}
+.floatlabel label.label.floatlabel-active {
+  color:#0077c8;
+}
+.floatlabel input:focus {
+  outline: 0;
+}
+#contact #header-main {
+  background: url(../img/headerbg.png);
+  padding: 167px 0px;
+
+}
+#contact #header {
+  padding: unset !important;
+  padding-top: 20px; 
+
+}
+ 
+#body-6 .border-center:after {
+  background-color: #d7d7d7;
+  width: 800px;
+  height: 1px;
+}
+.content-box {
+  padding: 100px 0px;
+   
+}
+#body-7 {
+  border-bottom: 1px solid #d7d7d7;
+}
 @media (max-width: 768px) { 
   
   #header-main img{
