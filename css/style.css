@@ -78,6 +78,7 @@ body {
 button#scroll-down:focus {
   outline: 0;
 }
+
 button.navbar-toggler i {
   color: white;
 }
@@ -257,13 +258,16 @@ input.customNextBtn {
   margin-right: 20px;
   max-width: 260px;
 }
+
 .slide-button button {
   background: none;
   border: none;
 }
+
 .slide-button button:focus {
   outline: 0;
 }
+
 .carousel-wrap {
   margin: 90px auto;
   padding: 0 5%;
@@ -279,7 +283,7 @@ input.customNextBtn {
 }
 
 /* end fix */
-.owl-nav > div {
+.owl-nav>div {
   margin-top: -26px;
   position: absolute;
   top: 50%;
@@ -309,6 +313,7 @@ h3.blog-title-header {
   margin-left: 15px;
   margin-top: 18px;
 }
+
 .blog-image-header img {
   min-width: 72px;
   min-height: 72px;
@@ -317,24 +322,31 @@ h3.blog-title-header {
 p.cards-text {
   margin-top: 22px;
 }
+
 #header-main img {
   padding: 178px 20px 103px 152px;
 }
+
 .mobile {
   display: none !important;
 }
+
 .card-blog .card-blog-body {
   margin-top: 24px;
 }
+
 button.btn-custom.nav-link.header-button:focus {
   outline: 0;
 }
+
 .tablet {
   display: none;
 }
+
 #footer {
   padding-bottom: 20px;
 }
+
 .textleft {
   margin-top: 45px;
 }
@@ -343,12 +355,15 @@ button.btn-custom.nav-link.header-button:focus {
   position: unset !important;
   margin-top: 25px;
 }
+
 .dropdown-menu {
   min-width: unset !important;
 }
+
 .dropdown-item {
   padding: unset !important;
 }
+
 .nav-pills .nav-link.active {
   border-radius: 37px !important;
   font-size: 16px;
@@ -358,7 +373,6 @@ button.btn-custom.nav-link.header-button:focus {
 ul#pills-tab {
   background: #f7f6fc;
   border-radius: 37px;
-  max-width: 63.5%;
 }
 
 .nav-pills .nav-link {
@@ -369,14 +383,17 @@ ul#pills-tab {
   padding-left: 60px;
   text-transform: uppercase;
 }
+
 .form-wrapper {
   min-height: 535px;
 }
+
 /* Form */
 
 .floatlabel {
   position: relative;
 }
+
 .floatlabel input {
   -webkit-appearance: none;
   color: #333;
@@ -385,6 +402,7 @@ ul#pills-tab {
   border-radius: 8px;
   border: solid 1px #e6e6e6;
 }
+
 .floatlabel label.label {
   position: absolute;
   top: 14px;
@@ -395,6 +413,7 @@ ul#pills-tab {
   font-size: 16px;
   cursor: text;
 }
+
 .floatlabel label.label.floatlabel-shift {
   top: -7px;
   left: 12px;
@@ -402,40 +421,50 @@ ul#pills-tab {
   font-size: 14px;
   color: #999;
 }
+
 .floatlabel label.label.floatlabel-active {
   color: #0077c8;
 }
+
 .floatlabel input:focus {
   outline: 0;
 }
+
 #contact #header-main {
   background-image: url(../img/headerbg.png);
   padding: 167px 0px;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 #contact #header {
   padding: unset !important;
   padding-top: 20px;
   background-image: unset;
 }
+
 #body-6 {
   padding: 80px 0px 80px 0px;
 }
+
 #body-6 .border-center:after {
   background-color: #d7d7d7;
   width: 800px;
   height: 1px;
 }
+
 .content-box {
   padding: 100px 0px;
 }
+
 #body-7 {
   border-bottom: 1px solid #d7d7d7;
 }
+
 .contact-form {
   padding-left: 150px !important;
 }
+
 div#pills-tabContent {
   margin-top: 80px;
   max-width: 458px;
@@ -444,14 +473,17 @@ div#pills-tabContent {
 .search_button {
   margin-top: 41px;
 }
+
 button#searchButton {
   background: #1a73ad;
   border: none;
   padding: 15px 20px;
 }
+
 .tabs-pill {
   padding-left: 150px !important;
 }
+
 .form-wrapper {
   background-image: url(../img/group-410.png);
   background-repeat: no-repeat;
@@ -462,35 +494,45 @@ button#searchButton {
   #header-main img {
     padding: 50px 0px 20px 0px;
   }
+
   .body-4-title h2 {
     font-size: 25px;
   }
+
   .pc {
     display: none !important;
   }
+
   .mobile {
     display: block !important;
   }
+
   ul#pills-tab li {
     width: 100%;
   }
+
   ul#pills-tab {
     max-width: unset;
   }
+
   .contact-form {
     padding: 0px 0px 23px 37px !important;
   }
+
   .form-wrapper {
     padding: 20px 7px 20px 20px !important;
   }
+
   .tabs-pill {
     padding-left: unset !important;
   }
+
   button#searchButton {
     float: none !important;
     width: 100%;
   }
 }
+
 @media (max-width: 992px) {
   .tablet {
     display: block;
