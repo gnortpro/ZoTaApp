@@ -193,7 +193,7 @@ nav.navbar {
 .carousel-wrap .active a {
   border: none;
   margin-top: 19px;
-} 
+}
 
 a.dang-ky-ngay {
   display: inline-block;
@@ -252,17 +252,16 @@ input.customNextBtn {
   margin-right: 29px;
 }
 
-
 /* Carousel */
 .owl-carousel .item {
   margin-right: 20px;
-  max-width: 260px; 
+  max-width: 260px;
 }
 .slide-button button {
   background: none;
   border: none;
 }
-.slide-button button:focus{
+.slide-button button:focus {
   outline: 0;
 }
 .carousel-wrap {
@@ -280,7 +279,7 @@ input.customNextBtn {
 }
 
 /* end fix */
-.owl-nav>div {
+.owl-nav > div {
   margin-top: -26px;
   position: absolute;
   top: 50%;
@@ -298,8 +297,6 @@ input.customNextBtn {
 .owl-nav .owl-next {
   right: -30px;
 }
-
-
 
 .blog-image-header {
   margin-top: -55px;
@@ -320,29 +317,29 @@ h3.blog-title-header {
 p.cards-text {
   margin-top: 22px;
 }
-#header-main img{
+#header-main img {
   padding: 178px 20px 103px 152px;
 }
 .mobile {
   display: none !important;
 }
 .card-blog .card-blog-body {
-    margin-top: 24px;
+  margin-top: 24px;
 }
-button.btn-custom.nav-link.header-button:focus{
-  outline:0;
+button.btn-custom.nav-link.header-button:focus {
+  outline: 0;
 }
 .tablet {
-    display: none;
-  }
-   #footer {
-    padding-bottom: 20px;
+  display: none;
+}
+#footer {
+  padding-bottom: 20px;
 }
 .textleft {
   margin-top: 45px;
 }
 
-.carousel-indicators{
+.carousel-indicators {
   position: unset !important;
   margin-top: 25px;
 }
@@ -350,7 +347,7 @@ button.btn-custom.nav-link.header-button:focus{
   min-width: unset !important;
 }
 .dropdown-item {
-  padding: unset !important; 
+  padding: unset !important;
 }
 .nav-pills .nav-link.active {
   border-radius: 37px !important;
@@ -361,6 +358,7 @@ button.btn-custom.nav-link.header-button:focus{
 ul#pills-tab {
   background: #f7f6fc;
   border-radius: 37px;
+  max-width: 63.5%;
 }
 
 .nav-pills .nav-link {
@@ -371,42 +369,41 @@ ul#pills-tab {
   padding-left: 60px;
   text-transform: uppercase;
 }
-
-
-
-
+.form-wrapper {
+  min-height: 535px;
+}
 /* Form */
 
 .floatlabel {
-  position:relative;
+  position: relative;
 }
 .floatlabel input {
   -webkit-appearance: none;
-  color:#333;
-  padding:10px 12px;
+  color: #333;
+  padding: 10px 12px;
   width: 100%;
   border-radius: 8px;
   border: solid 1px #e6e6e6;
 }
 .floatlabel label.label {
-  position:absolute;
-  top:14px;
+  position: absolute;
+  top: 14px;
   left: 15px;
-  transition:all 0.2s ease-out;
-  background:#fff;
+  transition: all 0.2s ease-out;
+  background: #fff;
   color: #d1d1d1;
-  font-size:16px;
-  cursor:text;
+  font-size: 16px;
+  cursor: text;
 }
 .floatlabel label.label.floatlabel-shift {
-  top:-7px;
-  left:12px;
-  padding:0 4px;
-  font-size:14px;
-  color:#999;
+  top: -7px;
+  left: 12px;
+  padding: 0 4px;
+  font-size: 14px;
+  color: #999;
 }
 .floatlabel label.label.floatlabel-active {
-  color:#0077c8;
+  color: #0077c8;
 }
 .floatlabel input:focus {
   outline: 0;
@@ -422,7 +419,9 @@ ul#pills-tab {
   padding-top: 20px;
   background-image: unset;
 }
- 
+#body-6 {
+  padding: 80px 0px 80px 0px;
+}
 #body-6 .border-center:after {
   background-color: #d7d7d7;
   width: 800px;
@@ -430,17 +429,40 @@ ul#pills-tab {
 }
 .content-box {
   padding: 100px 0px;
-   
 }
 #body-7 {
   border-bottom: 1px solid #d7d7d7;
 }
-@media (max-width: 768px) { 
-  
-  #header-main img{
+.contact-form {
+  padding-left: 150px !important;
+}
+div#pills-tabContent {
+  margin-top: 80px;
+  max-width: 458px;
+}
+
+.search_button {
+  margin-top: 41px;
+}
+button#searchButton {
+  background: #1a73ad;
+  border: none;
+  padding: 15px 20px;
+}
+.tabs-pill {
+  padding-left: 150px !important;
+}
+.form-wrapper {
+  background-image: url(../img/group-410.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+@media (max-width: 768px) {
+  #header-main img {
     padding: 50px 0px 20px 0px;
   }
-  .body-4-title h2{
+  .body-4-title h2 {
     font-size: 25px;
   }
   .pc {
@@ -449,10 +471,28 @@ ul#pills-tab {
   .mobile {
     display: block !important;
   }
- 
- }
- @media (max-width: 992px) {
+  ul#pills-tab li {
+    width: 100%;
+  }
+  ul#pills-tab {
+    max-width: unset;
+  }
+  .contact-form {
+    padding: 0px 0px 23px 37px !important;
+  }
+  .form-wrapper {
+    padding: 20px 7px 20px 20px !important;
+  }
+  .tabs-pill {
+    padding-left: unset !important;
+  }
+  button#searchButton {
+    float: none !important;
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
   .tablet {
     display: block;
   }
- }
+}
