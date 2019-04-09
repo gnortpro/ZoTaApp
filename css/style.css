@@ -158,7 +158,10 @@ nav.navbar {
 .header-main-button button:focus {
   outline: unset;
 }
-
+a.tim-hieu-them:hover {
+    text-decoration: none;
+    color: white;
+}
 /* body 1 */
 #body-1 {
   padding: 80px 50px 98px 50px;
@@ -227,21 +230,22 @@ a.tim-hieu-them {
   background: #1a73ad;
   color: white;
   border-radius: 24.5px;
-  padding: 13px 59px 12px 20px;
+  padding: 13px 20px 12px 20px;
 }
 
 a.tim-hieu-them:after {
   content: '\0000a0';
   display: inline-block;
-  height: 24px;
-  width: 24px;
+  height: 16px;
+  width: 17px;
   line-height: 24px;
   margin: 0 6px -6px -4px;
   position: relative;
-  top: 0px;
-  left: 0px;
+  margin-left: 3px;
+  top: 3px;
+  /* left: 0px; */
   background: white;
-  background: url('../img/arrow-forward.png') no-repeat left center;
+  background: url('../img/arrow-forward-white.png') no-repeat left center;
   background-size: 100% 100%;
 }
 
